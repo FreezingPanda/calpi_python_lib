@@ -1,5 +1,5 @@
 # mylibrary/__init__.py
 
-from .calpi import calpiinfo
+from .calpi import calpi
 # mylibrary/__init__.py
 

@@ -10,10 +10,30 @@ Functionality:
 
 Usage Example:
 ```python
-import calpi
-from calpi import calpi
-result = calpi(1000, 4000)
-print(result)
+from decimal import Decimal, getcontext
+from calpi import calpiinfo  # Assuming calpiinfo is in a file called calpi.py
+
+# Create an instance of calpiinfo
+pi_calculator = calpiinfo()
+
+# Example usage of the calpi function to calculate Pi
+amount = 100  # The number of digits of Pi you want to calculate
+iterations = 1000  # Number of iterations for the Chudnovsky algorithm
+
+# Calculate Pi with high precision
+calculated_pi = pi_calculator.calpi(amount, iterations)
+print(f"Calculated Pi with {amount} digits: {calculated_pi}")
+
+# Example usage of the binaryencode function to convert a string to binary
+text = "Hello, World!"  # The string to be encoded
+binary_encoded = pi_calculator.binaryencode(text)
+print(f"Binary Encoding of '{text}': {binary_encoded}")
+
+# Example usage of the binarydecode function to decode the binary string back to text
+binary_string = binary_encoded  # Using the previously encoded binary string
+decoded_text = pi_calculator.binarydecode(binary_string)
+print(f"Decoded Binary String: {decoded_text}")
+
 ```
 
 This will output:
