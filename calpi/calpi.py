@@ -46,3 +46,4 @@ class calpiinfo:
         decoded_string += chr(int(bv, 2))
     
      return decoded_string
+ 

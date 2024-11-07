@@ -42,3 +42,6 @@ This will output:
 
 A note from the developer:
  This is my first library- Whether it recieves more features and updates as time progresses is uncertain, love you guys <3
+
+For Further Reading on each feature of Calpi, visit:
+https://calpi-docs.onrender.com

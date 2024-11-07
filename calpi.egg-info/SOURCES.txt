@@ -1,5 +1,7 @@
 LICENSE
 README.md
+c/__init__.py
+c/librarymain.py
 calpi/__init__.py
 calpi/calpi.py
 calpi/setup.py
